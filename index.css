@@ -14,7 +14,7 @@
       padding: 10px;
       font-size: 18px;
     }
-    input[type="submit"] {
+    button {
       background: red;
       color: white;
     }
