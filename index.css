@@ -6,15 +6,26 @@
       color: white;
       font-family: helvetica;
     }
+
     p {
       font-size: 22px;
     }
+
     input {
       border: 0;
       padding: 10px;
       font-size: 18px;
     }
+
     button {
-      background: red;
+      background: linear-gradient(#990000, #ff0000);
       color: white;
+      width: 100px;
+      height: 40px;
+      border: red;
+    }
+
+    #menu {
+      margin-left: -150px;
+      width: 100px;
     }
