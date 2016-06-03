@@ -9,21 +9,6 @@
       font-size: 22px;
     }
 
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-
-    button {
-      background: linear-gradient(#990000, #ff0000);
-      color: white;
-      width: 200px;
-      height: 50px;
-      border: red;
-      margin-bottom: 10px;
-    }
-
     .navigation {
       width: 100%;
       height: 100%;
@@ -84,7 +69,7 @@ label[for="nav-trigger"] {
   height: 30px;
   width: 30px;
   cursor: pointer;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+  background-image: url("menu.svg");
   background-size: contain;
 }
 
