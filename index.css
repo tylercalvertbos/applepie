@@ -1,5 +1,15 @@
 p {
 	font-family: Comic;
 	font-size: 3em;
-	font-align: center;
+	text-align: center;
+	color: white;
+}
+
+html {
+	background: black;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
 }
