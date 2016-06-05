@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+	<link rel='stylesheet' type='text/css' href='index.css'>
+</head>
+	<body>
+		
+	<ul class="navigation">
+    <li class="nav-item"><a href="index.html">Home</a></li>
+    <li class="nav-item"><a href="projects.html">Projects</a></li>
+    <li class="nav-item"><a href="about.html">About</a></li>
+    <li class="nav-item"><a href='login.html'>Login</a></li>
+	</ul>
+
+	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+	<label for="nav-trigger"></label>
+<div class='site-wrap'>
+<script language="javascript">
+function pasuser(form) {
+if (form.id.value=="Tyler") { 
+if (form.pass.value=="applepie") {              
+location="tyler.html" 
+}}}
+</script>
+
+
+<pre>Username:</pre><form name="login">
+<input name="id" type="text">
+<pre>Password:</pre>
+ <input name="pass" type="password">
+ <br><br>
+ <input type="button" value="Login" onClick="pasuser(this.form)">
+	</body>
+</html>
